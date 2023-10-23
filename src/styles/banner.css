@@ -1,0 +1,18 @@
+div .wrapper-banner {
+  width: 98%;
+  margin: 4px auto 0 auto;
+  padding: 2px 0;
+  background: linear-gradient(
+    90deg,
+    var(--clr-secondary),
+    70%,
+    var(--clr-primary)
+  );
+  color: #fff;
+  border-radius: var(--rnd-soft);
+  text-align: center;
+  box-shadow: 1px 2px 1px #74747480;
+}
+
+
+  

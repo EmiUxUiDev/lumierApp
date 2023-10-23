@@ -1,0 +1,44 @@
+import React from "react";
+import insta from "../icons/logo-instagram.svg";
+import wapp from "../icons/whatsapp-logo-24.png";
+import nube from "../icons/nube.png";
+import "../styles/socialmedia.css";
+
+export default function SocialMedia() {
+  return (
+    <>
+      <h3 className="social-media-h3">BIenvenidos a LUMIER Deco</h3>
+      <section className="wrapper-social-media">
+        
+        <button className="wapp-btn">
+          <img src={wapp} />
+          <a
+            href="https://api.whatsapp.com/send?phone=3512526570"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            WhatsApp Lumier
+          </a>
+        </button>
+
+        <button className="insta-btn">
+          <img src={insta} />
+          <a
+            href="https://www.instagram.com/lumier.deco"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Lumier.deco
+          </a>
+        </button>
+
+        <button className="nube-btn">
+          <img src={nube} />
+          <a href="#" target="_blank" rel="noopener noreferrer">
+            Lumier Tienda Nube
+          </a>
+        </button>
+      </section>
+    </>
+  );
+}

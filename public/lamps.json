@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "nombre":"Ameba",
+        "descripcion": "Pantalla hecha en yute con un diametro aproximado de 60cm y altura de 15cm",
+        "precio": 24.500,
+        "path": "ameba.jpg"
+    },
+    {
+        "id": 2,
+        "nombre":"Cilindrica",
+        "descripcion": "Pantalla hecha en cordon kraft con un diametro aproximado de 60cm y altura de 25cm",
+        "precio": 31000,
+        "path": "cilindrica.jpg"
+    },
+    {
+        "id": 3,
+        "nombre":"Baloom",
+        "descripcion": "Pantalla hecha en cordon kraft o yute con un diametro aproximado de 50cm y altura de 60cm",
+        "precio": 34000,
+        "path": "baloon.jpg"
+    },
+    {
+        "id": 4,
+        "nombre":"Tio cosa",
+        "descripcion": "Pantalla hecha en yute con un diametro aproximado de 40cm y altura de 60cm",
+        "precio": 24000,
+        "path": "ameba.jpg"
+    }
+]
