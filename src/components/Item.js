@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/item.css";
 
-export default function Item({ id, nombre, descripcion, precio, path }) {
+export default function Item({ id, nombre, descripcion, precio, path, categoria }) {
   console.log({ path });
   return (
     <article className="wrapper-item">
@@ -11,6 +11,7 @@ export default function Item({ id, nombre, descripcion, precio, path }) {
         <h2>{nombre}</h2>
         <p>{descripcion}</p>
         <p className="product-price">{precio}</p>
+        <p>{categoria}</p>
       </div>
     </article>
   );

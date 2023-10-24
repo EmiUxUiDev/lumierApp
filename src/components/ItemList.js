@@ -13,6 +13,7 @@ export default function ItemList({ lamparas }) {
             descripcion={lampara.descripcion}
             precio={lampara.precio}
             path={lampara.path}
+            categoria={lampara.categoria}
           />
         );
       })}

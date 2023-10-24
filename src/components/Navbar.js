@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "../styles/navbar.css";
 import lumierOff from "../img/LumierOff.png";
 import lumierOn from "../img/LumierOn.png";
-
+import { Link } from "react-router-dom";
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const toggleNavbar = () => {
@@ -20,31 +20,36 @@ export default function Navbar() {
                 src={lumierOff}
                 alt="Logo de Lumier apagado, web"
               />
-              <img
-                className="lamp-on"
-                src={lumierOn}
-                alt="Logo de Lumier encendido, web"
-              />
+              <Link to="/">
+                <img
+                  className="lamp-on"
+                  src={lumierOn}
+                  alt="Logo de Lumier encendido, web"
+                />
+              </Link>
             </div>
           </div>
 
-          <div className={`menu-toggle ${isOpen ? 'open' : ''}`} onClick={toggleNavbar}>
+          <div
+            className={`menu-toggle ${isOpen ? "open" : ""}`}
+            onClick={toggleNavbar}
+          >
             <div className="bar"></div>
             <div className="bar"></div>
             <div className="bar"></div>
           </div>
 
-            <ul className={`ul-categories ${isOpen ? 'open' : ''}`}>
-              <li>
-                <a href="#">COLGANTES</a>
-              </li>
-              <li>
-                <a href="#">DE PARED</a>
-              </li>
-              <li>
-                <a href="#">DE PIE</a>
-              </li>
-            </ul>
+          <ul className={`ul-categories ${isOpen ? "open" : ""}`}>
+            <li>
+              <Link to="/category/colgantes">COLGANTES</Link>
+            </li>
+            <li>
+              <Link to="/category/pared">DE PARED</Link>
+            </li>
+            <li>
+              <Link to="/category/pie">DE PIE</Link>
+            </li>
+          </ul>
         </div>
       </nav>
     </header>
