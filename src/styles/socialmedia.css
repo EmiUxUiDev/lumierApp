@@ -1,17 +1,22 @@
 
 .social-media-h3 {
     text-align: center;
+    margin: 0;
 }
 .wrapper-social-media{
+    height: 15vh;
  display: flex;
  justify-content: space-around;
+ align-items: center;
 }
 .wrapper-social-media button {
     width: 12rem;
+    height: 36px;
     border-radius: var(--rnd-med);
     display: flex;
     align-items: center;
     justify-content:center;
+    /* margin-bottom: 2rem; */
 }
 
 .wrapper-social-media button.wapp-btn img{

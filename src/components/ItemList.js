@@ -1,5 +1,6 @@
 import React from "react";
 import Item from "./Item.js";
+import "../styles/itemlist.css"
 
 export default function ItemList({ lamparas }) {
   return (
