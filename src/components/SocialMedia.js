@@ -34,9 +34,9 @@ export default function SocialMedia() {
 
         <button className="nube-btn">
           <img src={nube} alt="logo tienda nube"/>
-          <a href="#" target="_blank" rel="noopener noreferrer">
+          <p>
             Lumier Tienda Nube
-          </a>
+          </p>
         </button>
       </section>
     </>

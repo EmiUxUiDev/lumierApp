@@ -10,8 +10,7 @@ export default function Item({ id, nombre, descripcion, precio, path, categoria 
       <div className="wrapper-content">
         <h2>{nombre}</h2>
         <p>{descripcion}</p>
-        <p className="product-price">{precio}</p>
-        <p>{categoria}</p>
+        <p className="product-price">{`$${precio}`}</p>
       </div>
     </article>
   );

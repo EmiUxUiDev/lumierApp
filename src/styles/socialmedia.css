@@ -28,7 +28,7 @@
     margin-right: 5px;
 }
 
-.wrapper-social-media button a{
+.wrapper-social-media button a,p{
     text-decoration: none;
     font-size: var(--font-size-reg);  
     font-family: var(--font-2); 
