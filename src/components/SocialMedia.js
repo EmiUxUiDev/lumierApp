@@ -7,7 +7,7 @@ import "../styles/socialmedia.css";
 export default function SocialMedia() {
   return (
     <>
-      <h3 className="social-media-h3">BIenvenidos a LUMIER Deco</h3>
+      <h3 className="social-media-h3">Bienvenidos a LUMIER Deco</h3>
       <section className="wrapper-social-media">
         
         <button className="wapp-btn">

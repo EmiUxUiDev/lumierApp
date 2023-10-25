@@ -25,6 +25,9 @@ div.wrapper-content{
 div.wrapper-content p,h2{
     margin: 5px;
 }
+
+div.wrapper-content p{font-weight: 400;}
+
 p.product-price{
     font-size: var(--font-size-big);
     color: #292929 ;
