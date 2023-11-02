@@ -2,6 +2,10 @@
 .social-media-h3 {
     text-align: center;
     margin: 1.3rem 0 0.5rem 0;
+    font-family: var(--font-1);
+    font-size: var(--font-size-big);
+    color: var(--clr-dark-grey);
+    text-shadow: 0px 0px 3px var(--clr-secondary);
 }
 .wrapper-social-media{
     height: 15vh;
@@ -45,6 +49,9 @@
     background-color: #25D366;
 }
 
+.wrapper-social-media button.nube-btn{
+    cursor: pointer;
+}
 @media (max-width: 768px) {
     .wrapper-social-media{
         height: 25vh;

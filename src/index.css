@@ -1,5 +1,10 @@
 
-  @import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;400;700&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700');
+  @import url('https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@300;400;500;700;900&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100;200;300;400;500;600;700;800&display=swap');
+
+  
 
 
 :root{
@@ -7,7 +12,7 @@
   --clr-secondary:#db821c;
   --clr-light-grey: rgb(240, 240, 240);
   --clr-mid-grey: rgb(109, 109, 109);
-  --clr-dark-grey: rgb(65, 65, 65);
+  --clr-dark-grey: #404040;
   --light-white-transparent: rgba(255, 255, 255, 0.18);
   --light-black-transparent: rgba(46, 46, 46, 0.15);
   --white-transparent: rgba(255, 255, 255, 0.5);
@@ -17,8 +22,8 @@
   --rnd-med: 1rem;
   --rnd-strong: 2rem;
   --rnd: 50%;
-  --font-2:  'M+PLUS+Rounded', 'Roboto';
-  --font-1: 'Righteous', 'Roboto';
+  --font-2: 'Zen Maru Gothic', serif;
+  --font-1: 'Kalam', 'cursive';
   --font-size-xbig:2.8rem;
   --font-size-big:1.8rem;
   --font-size-mid:1.4rem;
