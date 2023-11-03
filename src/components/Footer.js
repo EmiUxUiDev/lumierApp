@@ -11,7 +11,8 @@ export default function Footer() {
         <img src={lumierLogo} alt="Logo de lampara de la empresa" />
         <p>Lamparas y luminarias hechas a mano en fibras naturales</p>
       </div>
-      <div className="wrapper-category">
+      <span className="hr-line"></span>
+      <div className="wrapper-category piece">
         Categoria
         <ul className="wrapper-ul">
           <li className="wrapper-li">
@@ -25,7 +26,8 @@ export default function Footer() {
           </li>
         </ul>
       </div>
-      <div className="wrapper-contact">
+      <span className="hr-line"></span>
+      <div className="wrapper-contact piece">
         Punto de entrega
         <div className="wrapper-location">
           <img src={location} alt="Icono de direccion" />
